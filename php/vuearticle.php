@@ -12,7 +12,7 @@ $article = $articlesT[$_GET["art"]];
 
 
 <article id="vuearticle">
-    <h3><?= $article["titre"] ?></h3>
+    <h1><?= $article["titre"] ?></h1>
     <p class=""><?= $article["description"] ?></p>
     <div class="images">
     <div class=""><img class="" src= <?= $article["image"] ?> alt=""></div>
