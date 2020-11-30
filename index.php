@@ -36,10 +36,10 @@
             <li><a href="index.php?page=acc">Accessoires</a></li>
             </li>    
         </ul>
-    </div> 
-    
-
-    
+    </div>
+    <div class="head">
+        <p>test</p>
+    </div>
 
     <div id="content">
         <?php require "php/$pageAINCLURE" ?>

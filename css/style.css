@@ -7,7 +7,6 @@ body {
 
 #container {
     width: 100%;
-    height: 40vh;
 }
 
 #menu {
@@ -18,12 +17,20 @@ body {
 #menu li {
     list-style-type: none;
     margin: 1em;
+    border-right: 3px solid orange;
     
 }
 
 #menu li a {
     text-decoration: none;
     font-size: 1.5em;
+    color: cornflowerblue;
+}
+
+.head {
+    height: 40vh;
+    border: 2px solid red;
+    margin: 1em;
 }
 
 

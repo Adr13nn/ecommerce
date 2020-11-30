@@ -7,7 +7,7 @@ $articleT_1 = [
     "image" => "images/t_1.webp",
     "prix" => "99 €",
     "stock" => "disponible",
-    "lien" => ""
+    "reference" => "00001"
 ];
 
 $articleT_2 = [
@@ -17,7 +17,7 @@ $articleT_2 = [
     "image" => "images/t_2.webp",
     "prix" => "299 €",
     "stock" => "disponible",
-    "lien" => ""
+    "reference" => "00002"
 ];
 
 $articleT_3 = [
@@ -27,7 +27,7 @@ $articleT_3 = [
     "image" => "images/t_3.webp",
     "prix" => "219 €",
     "stock" => "Indisponible",
-    "lien" => ""
+    "reference" => "00003"
 ];
 
 $articleT_4 = [
@@ -37,7 +37,7 @@ $articleT_4 = [
     "image" => "images/t_4.webp",
     "prix" => "449 €",
     "stock" => "Disponible",
-    "lien" => ""
+    "reference" => "00004"
 ];
 
 $articleT_5 = [
@@ -47,7 +47,7 @@ $articleT_5 = [
     "image" => "images/t_5.webp",
     "prix" => "59 €",
     "stock" => "Disponible",
-    "lien" => ""
+    "reference" => "00005"
 ];
 
 $articleT_6 = [
@@ -57,7 +57,7 @@ $articleT_6 = [
     "image" => "images/t_6.webp",
     "prix" => "229 €",
     "stock" => "Disponible",
-    "lien" => ""
+    "reference" => "00006"
 ];
 
 $articleT_7 = [
@@ -67,7 +67,7 @@ $articleT_7 = [
     "image" => "images/t_7.webp",
     "prix" => "749 €",
     "stock" => "Disponible",
-    "lien" => ""
+    "reference" => "00007"
 ];
 
 
