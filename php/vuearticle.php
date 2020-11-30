@@ -8,7 +8,7 @@ $article = $articlesT[$_GET["art"]];
 
 ?>
 
-<p><a href="index.php?page=telescopes.php">Les Téléscopes</a> / <?php $article["titre"] ?></p>
+<p><a href="index.php?page=telescopes.php">Les Téléscopes</a> / <?= $article["titre"] ?></p>
 
 
 <article id="vuearticle">
