@@ -25,6 +25,8 @@ body {
 #content {
     display: flex;
     justify-content: center;
+    width: 70%;
+    margin: auto;
     flex-wrap: wrap;
 }
 
@@ -32,6 +34,7 @@ body {
 #article {
     width: 30%;
     border: 2px solid red;
+    padding: 1em;
 }
 
 #article img {
@@ -40,5 +43,6 @@ body {
 #vuearticle {
     width: 80%;
     margin: auto;
+    border: 2px solid red;
 }
 
