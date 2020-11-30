@@ -13,7 +13,7 @@
     </div>
     <p class="fabricant">Fabricant: <?= $article["fabricant"] ?></p>
     <p class="stock">Disponibilité: <?= $article["stock"] ?></p>
-    <p class="prix">Prix : <?= $article["prix"] ?></p>
+    <p class="prix"><strong>Prix : <?= $article["prix"] ?></strong></p>
 </article>
 
 
