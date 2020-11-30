@@ -12,7 +12,7 @@
     <div class=""><img class="" src= <?= $article["image"] ?> alt=""></div>
     </div>
     <p class="fabricant">Fabricant: <?= $article["fabricant"] ?></p>
-    <p class="stock">Disponibilité: <?= $article["stock"] ?></p>
+    <p class="stock">Disponibilité: <strong> <?= $article["stock"] ?></strong></p>
     <p class="prix"><strong>Prix : <?= $article["prix"] ?></strong></p>
 </article>
 
