@@ -40,7 +40,10 @@
     <div class="head">
         <p>test</p>
     </div>
+    <div class="index_menu">
+        <p>Menu</p>
 
+    </div>
     <div id="content">
         <?php require "php/$pageAINCLURE" ?>
     </div>
