@@ -50,6 +50,19 @@ body {
     padding: 1em;
 }
 
+#article .prix {
+    color: orange;
+}
+
+#article .description {
+    font-style: italic;
+}
+
+#article a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
 #article img {
     width: 80%;
 }

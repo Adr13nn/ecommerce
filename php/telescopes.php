@@ -6,8 +6,8 @@
 
 
 <article id="article">
-    <h1><?= $article["titre"] ?></h1>
-    <p class=""><?= substr($article["description"], 0, 100) ?>..<a href="index.php?page=vuearticle&art=<?= $index ?>"><br>Lire la suite...</a></p>
+    <h1><a href="index.php?page=vuearticle&art=<?= $index ?>"><?= $article["titre"] ?></a></h1>
+    <p class="description"><?= substr($article["description"], 0, 100) ?>..<a href="index.php?page=vuearticle&art=<?= $index ?>"><br><strong>Lire la suite...</a></strong></p>
     <div class="images">
     <div class=""><img class="" src= <?= $article["image"] ?> alt=""></div>
     </div>
