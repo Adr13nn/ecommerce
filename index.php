@@ -37,9 +37,9 @@
             </li>    
         </ul>
     </div> 
-    <div>
+    
 
-    </div>
+    
 
     <div id="content">
         <?php require "php/$pageAINCLURE" ?>

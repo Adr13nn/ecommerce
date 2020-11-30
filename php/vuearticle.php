@@ -8,10 +8,10 @@ $article = $articlesT[$_GET["art"]];
 
 ?>
 
-<p><a href="index.php?page=sience">Les Téléscopes</a> / <?php $article["titre"] ?></p>
+<p><a href="index.php?page=telescopes.php">Les Téléscopes</a> / <?php $article["titre"] ?></p>
 
 
-<article>
+<article id="vuearticle">
     <h3><?= $article["titre"] ?></h3>
     <p class=""><?= $article["description"] ?></p>
     <div class="images">
