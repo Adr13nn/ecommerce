@@ -47,8 +47,13 @@ body {
 
 #article {
     width: 30%;
+    height: 30%;
     border: 2px solid red;
     padding: 1em;
+}
+
+#article h1 {
+    font-size: 1.25em;
 }
 
 #article .prix {
@@ -65,7 +70,9 @@ body {
 }
 
 #article img {
-    width: 80%;
+    width: 25%;
+    display: inline-block;
+    border: 2px solid red;
 }
 #vuearticle {
     width: 80%;
