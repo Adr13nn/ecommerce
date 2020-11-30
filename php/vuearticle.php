@@ -22,3 +22,6 @@ $article = $articlesT[$_GET["art"]];
     <p class="stock">Disponibilité: <strong><?= $article["stock"] ?></strong></p>
     <p class="prix"><strong>Prix : <?= $article["prix"] ?></strong></p>
 </article>
+<div class="fenetrePrix">
+
+</div>

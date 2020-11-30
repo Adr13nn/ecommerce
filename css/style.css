@@ -86,10 +86,11 @@ body {
     border: 2px solid red;
 }
 #vuearticle {
+    justify-self: left;
     width: 80%;
     height: 50%;
-    margin: auto;
     border: 2px solid red;
+    
 }
 
 #vuearticle img {
@@ -98,11 +99,14 @@ body {
     border: 2px solid red;
 }
 
-#vuearticle .stock {
-    
-}
 
 #vuearticle .prix{
     color: orange;
+}
+
+.fenetrePrix {
+    width: 20%;
+    height: 50%;
+    border: 2px solid red;
 }
 

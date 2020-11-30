@@ -5,17 +5,17 @@
     if(isset($_GET["page"])) {
 
         switch($_GET["page"]) {
-            case "science" : $pageAINCLURE = "telescopes.php";
+            case "science" : $template = "telescopes.php";
             break;
-            case "acc" : $pageAINCLURE = "accessoires.php";
+            case "acc" : $template = "accessoires.php";
             break;
-            case "vuearticle" : $pageAINCLURE = "vuearticle.php";
+            case "vuearticle" : $template = "vuearticle.php";
             break;
-            default : $pageAINCLURE = "telescopes.php";
+            default : $template = "telescopes.php";
         }
 
     } else {
-        $pageAINCLURE = "telescopes.php";
+        $template = "telescopes.php";
     }
     
 ?>
@@ -37,15 +37,15 @@
             </li>    
         </ul>
     </div>
-    <div class="head">
+    <!-- <div class="head">
         <p>test</p>
-    </div>
+    </div> -->
     <div class="index_menu">
         <p>Menu</p>
 
     </div>
     <div id="content">
-        <?php require "php/$pageAINCLURE" ?>
+        <?php require "php/$template" ?>
     </div>
 
 </body>
