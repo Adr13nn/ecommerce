@@ -9,7 +9,7 @@
             break;
             case "acc" : $pageAINCLURE = "accessoires.php";
             break;
-            case "vuarticle" : $pageAINCLURE = "vuarticle.php";
+            case "vuearticle" : $pageAINCLURE = "vuearticle.php";
             break;
             default : $pageAINCLURE = "telescopes.php";
         }
