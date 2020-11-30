@@ -19,6 +19,6 @@ $article = $articlesT[$_GET["art"]];
     </div>
     <p class="reference"> Réference: <?= $article["reference"] ?></p>
     <p class="fabricant">Fabricant: <?= $article["fabricant"] ?></p>
-    <p class="stock">Disponibilité: <?= $article["stock"] ?></p>
+    <p class="stock">Disponibilité: <strong><?= $article["stock"] ?></strong></p>
     <p class="prix"><strong>Prix : <?= $article["prix"] ?></strong></p>
 </article>
